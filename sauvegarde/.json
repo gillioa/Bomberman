@@ -1,0 +1,740 @@
+{
+	"core":
+	{
+		"density"	:	"100",
+		"split"	:	"false",
+		"opt"	:	"0",
+		"players":
+		[
+			{
+				"id"	:	"0",
+				"hp"	:	"0",
+				"x"	:	"2.4",
+				"y"	:	"6.6",
+				"name"	:	"pl1",
+				"range"	:	"2",
+				"bombs"	:	"1",
+				"score"	:	"0",
+				"shield"	:	"false",
+				"push"	:	"false",
+				"speed"	:	"10",
+				"dead"	:	"true"
+			}
+		]
+		,
+		"map":
+		{
+			"width"	:	"8",
+			"length"	:	"8",
+			"cases":
+			[
+				{
+					"x"	:	"0",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"0",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"0",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"0",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"0",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"0",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"0",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"0",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"true",
+					"object":
+					{
+						"type"	:	"bonus",
+						"hp"	:	"0",
+						"speed"	:	"1",
+						"score"	:	"10",
+						"nbBombs"	:	"0",
+						"range"	:	"0",
+						"timeLimit"	:	"0"
+					}
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"1",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"true",
+					"object":
+					{
+						"type"	:	"bonus",
+						"hp"	:	"1",
+						"speed"	:	"0",
+						"score"	:	"10",
+						"nbBombs"	:	"0",
+						"range"	:	"0",
+						"timeLimit"	:	"0"
+					}
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"2",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"true",
+					"object":
+					{
+						"type"	:	"bonus",
+						"hp"	:	"0",
+						"speed"	:	"1",
+						"score"	:	"10",
+						"nbBombs"	:	"0",
+						"range"	:	"0",
+						"timeLimit"	:	"0"
+					}
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"3",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"true",
+					"object":
+					{
+						"type"	:	"bonus",
+						"hp"	:	"0",
+						"speed"	:	"1",
+						"score"	:	"10",
+						"nbBombs"	:	"0",
+						"range"	:	"0",
+						"timeLimit"	:	"0"
+					}
+				}
+				,
+				{
+					"x"	:	"4",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"5",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"true"
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Breakable"
+					}
+				}
+				,
+				{
+					"x"	:	"6",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"0",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"1",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"2",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"3",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"4",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"5",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"6",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+				,
+				{
+					"x"	:	"7",
+					"y"	:	"7",
+					"value"	:	"0",
+					"canWalk"	:	"false",
+					"object":
+					{
+						"type"	:	"wall",
+						"wallType"	:	"Unbreakable"
+					}
+				}
+			]		}
+	}
+}
